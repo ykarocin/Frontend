@@ -27,11 +27,23 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 265px;
 }
 
 .usuario{
-    padding-top: 20px;
-    padding-bottom: 20px;
     border-radius: 50%;
 }
 
+.nome-idade{
+    color: var(--text-color, gray);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.nome-user{
+    color: black;
+}
+
+.cidade-natal{
+    color: var(--text-color, gray);
+}
