@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .advice-card{
+        width: 90%;
+    }
+
+    .advice-card .card .advice{
+        font-size: 25px;
+    }
+}
