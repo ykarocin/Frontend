@@ -1,0 +1,1 @@
+Exercício para praticar o flex box e o responsivo;

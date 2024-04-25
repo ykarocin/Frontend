@@ -1,0 +1,14 @@
+@media (max-width: 900px) {
+    .lista{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 2000px;
+        gap: 1px;
+        margin-top: 40px;
+    }
+
+    .lista li{
+        padding-bottom: 20px;
+    }
+}
