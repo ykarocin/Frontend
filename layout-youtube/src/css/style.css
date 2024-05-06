@@ -1,0 +1,74 @@
+body{
+    display: grid;
+    grid-template-columns: 1066px 540px;
+    grid-column-gap: 34px;
+    font-family: "Roboto", sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 66px;
+    margin-left: 66px;
+    
+}
+
+.main img{
+    height: 400px;
+    width: 1000px;
+}
+
+.main .heading1{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.main .views{
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.main .description{
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+    margin-top: 66px;
+    /* gap: 20px; */
+}
+
+.side img{
+    width: 540px;
+    height: 112px;
+}
+
+.side .recomendations .side-video{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.side .recomendations .side-video img{
+    width: 202px;
+    height: 142px;
+    margin-right: 10px;
+}
+
+.side .recomendations .side-video .infos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.side .recomendations .side-video .infos .heading3{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.side .recomendations .side-video .infos p{
+    font-weight: 300;
+    font-size: 22px;
+}
